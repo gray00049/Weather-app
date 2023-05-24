@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 html,
 body,
 div,
@@ -82,8 +84,8 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
   vertical-align: baseline;
 }
 
