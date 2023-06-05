@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import AirQuality from './components/AirQuality/AirQuality';
+import WindDirection from './components/WindDirection/WindDirection';
 import Container from './components/Container';
 import Grid from './components/Grid';
 import SunTime from './components/SunTime/SunTime';
@@ -31,13 +31,13 @@ function App() {
 
   useEffect(() => {
     loadWeatherData();
-  });
+  }, []);
 
   return (
     <Container>
       <Grid>
         <Temperature />
-        <AirQuality />
+        <WindDirection />
         <SunTime />
         <WeekData />
       </Grid>

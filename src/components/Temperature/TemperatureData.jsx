@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 const StyledTemperatureData = styled.div`
-  padding-top: 60px;
+  margin-top: 120px;
   text-align: center;
 `;
 
@@ -60,7 +60,7 @@ export default function TemperatureData({ current, max, min }) {
 }
 
 TemperatureData.propTypes = {
-  current: PropTypes.string.isRequired,
-  max: PropTypes.string.isRequired,
-  min: PropTypes.string.isRequired,
+  current: PropTypes.number.isRequired,
+  max: PropTypes.number.isRequired,
+  min: PropTypes.number.isRequired,
 };

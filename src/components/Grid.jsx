@@ -6,7 +6,7 @@ const StyledGrid = styled.div`
   width: 1200px;
   margin: 0 auto;
   grid-template-columns: 540px 300px 300px;
-  grid-template-rows: 244px 244px;
+  grid-template-rows: 264px 244px;
   grid-gap: 30px;
 `;
 
